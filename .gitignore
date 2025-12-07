@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Docusaurus build output
+.build/
+.docusaurus/
+book-project/.docusaurus/
+book-project/build/
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Docusaurus specific
+.cache/
+.temp/
+public/
+book-project/.cache/
+book-project/.temp/
+book-project/public/
+
+# Next.js specific
+.next/
+out/
+.book/
+.dist/
+.nyc_output/
