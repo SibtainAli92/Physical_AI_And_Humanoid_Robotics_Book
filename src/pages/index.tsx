@@ -62,22 +62,22 @@ export default function Home() {
             <ModuleCard
               title="Module 1 – ROS 2"
               description="The Robotic Nervous System"
-              link="/docs/module1-ros2-nervous/index"
+              link="/docs/module1-ros2-nervous-system/"
             />
             <ModuleCard
               title="Module 2 – Digital Twin"
               description="Gazebo & Unity Simulation"
-              link="/docs/module2-digital-twin-simulation/index"
+              link="/docs/module2-digital-twin-simulation/"
             />
             <ModuleCard
               title="Module 3 – NVIDIA Isaac"
               description="Platform for AI Robotics"
-              link="/docs/module3-ai-brain-isaac/index"
+              link="/docs/module3-ai-brain-isaac/"
             />
             <ModuleCard
               title="Module 4 – VLA"
               description="Vision-Language-Action"
-              link="/docs/module4-vla-robotics/index"
+              link="/docs/module4-vla-robotics/"
             />
           </div>
         </section>
