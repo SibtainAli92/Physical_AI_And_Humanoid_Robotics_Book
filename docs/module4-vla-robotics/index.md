@@ -30,11 +30,11 @@ By the end of this module, you will:
 The VLA architecture connects perception, language, and action:
 
 ```
-[Visual Input] ’ [Vision Encoder] ’ [Language Understanding] ’ [Action Planning] ’ [Robot Execution]
-      “              “                    “                      “                  “
-[Cameras] ’ [Feature Extraction] ’ [Command Interpretation] ’ [Task Decomposition] ’ [Motor Control]
-      “              “                    “                      “                  “
-[Scene Data] ’ [Object Detection] ’ [Intent Recognition] ’ [Motion Planning] ’ [Physical Action]
+[Visual Input] ï¿½ [Vision Encoder] ï¿½ [Language Understanding] ï¿½ [Action Planning] ï¿½ [Robot Execution]
+      ï¿½              ï¿½                    ï¿½                      ï¿½                  ï¿½
+[Cameras] ï¿½ [Feature Extraction] ï¿½ [Command Interpretation] ï¿½ [Task Decomposition] ï¿½ [Motor Control]
+      ï¿½              ï¿½                    ï¿½                      ï¿½                  ï¿½
+[Scene Data] ï¿½ [Object Detection] ï¿½ [Intent Recognition] ï¿½ [Motion Planning] ï¿½ [Physical Action]
 ```
 
 ### Key Components:
@@ -62,12 +62,6 @@ The VLA architecture connects perception, language, and action:
 - Task decomposition and planning
 - Execution monitoring and feedback
 - Learning from demonstration
-
-## Chapter Navigation
-
-- [Chapter 1: VLA Models and Fundamentals](./chapter1-vla-fundamentals.md)
-- [Chapter 2: Multimodal Perception](./chapter2-multimodal-perception.md)
-- [Chapter 3: Task Planning and Execution](./chapter3-task-planning-execution.md)
 
 ## Getting Started
 

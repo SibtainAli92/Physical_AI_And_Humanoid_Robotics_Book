@@ -30,9 +30,9 @@ By the end of this module, you will:
 The ROS 2 architecture provides a flexible framework for robot development:
 
 ```
-[Sensor Nodes] ’ [Processing Nodes] ’ [Control Nodes] ’ [Actuator Nodes]
-       “              “                    “               “
-    [Topics] ’ [Services/Actions] ’ [Parameter Server] ’ [TF Tree]
+[Sensor Nodes] ï¿½ [Processing Nodes] ï¿½ [Control Nodes] ï¿½ [Actuator Nodes]
+       ï¿½              ï¿½                    ï¿½               ï¿½
+    [Topics] ï¿½ï¿½ [Services/Actions] ï¿½ï¿½ [Parameter Server] ï¿½ï¿½ [TF Tree]
 ```
 
 ### Key Components:
@@ -61,12 +61,6 @@ The ROS 2 architecture provides a flexible framework for robot development:
 - TF transforms and coordinate frames
 - Sensor integration with ROS 2
 - Control interfaces and hardware abstraction
-
-## Chapter Navigation
-
-- [Chapter 1: ROS 2 Fundamentals](./chapter1-fundamentals.md)
-- [Chapter 2: Advanced Communication Patterns](./chapter2-advanced-patterns.md)
-- [Chapter 3: Robot Integration](./chapter3-robot-integration.md)
 
 ## Getting Started
 

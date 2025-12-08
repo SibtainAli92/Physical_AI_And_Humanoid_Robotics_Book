@@ -30,11 +30,11 @@ By the end of this module, you will:
 The Isaac AI architecture integrates perception and control:
 
 ```
-[Sensors] ’ [Perception] ’ [Planning] ’ [Control] ’ [Actuators]
-     “          “           “         “         “
-[Cameras] ’ [Vision AI] ’ [Path Plan] ’ [Motion Control] ’ [Motors]
-     “          “           “         “         “
-[LiDAR] ’ [Sensor Fusion] ’ [Behavior Tree] ’ [Trajectory Gen] ’ [Servos]
+[Sensors] ï¿½ [Perception] ï¿½ [Planning] ï¿½ [Control] ï¿½ [Actuators]
+     ï¿½          ï¿½           ï¿½         ï¿½         ï¿½
+[Cameras] ï¿½ [Vision AI] ï¿½ [Path Plan] ï¿½ [Motion Control] ï¿½ [Motors]
+     ï¿½          ï¿½           ï¿½         ï¿½         ï¿½
+[LiDAR] ï¿½ [Sensor Fusion] ï¿½ [Behavior Tree] ï¿½ [Trajectory Gen] ï¿½ [Servos]
 ```
 
 ### Key Components:
@@ -62,12 +62,6 @@ The Isaac AI architecture integrates perception and control:
 - Grasping and pick-and-place operations
 - Force control and tactile feedback
 - Human-robot interaction
-
-## Chapter Navigation
-
-- [Chapter 1: Isaac ROS Fundamentals](./chapter1-isaac-fundamentals.md)
-- [Chapter 2: Navigation and Path Planning](./chapter2-navigation-planning.md)
-- [Chapter 3: Manipulation and Control](./chapter3-manipulation-control.md)
 
 ## Getting Started
 

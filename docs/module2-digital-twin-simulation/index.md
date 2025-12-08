@@ -30,11 +30,11 @@ By the end of this module, you will:
 The digital twin architecture connects virtual and physical systems:
 
 ```
-[Physical Robot] ” [Communication Bridge] ” [Digital Twin]
-       ‘                      ‘                      ‘
-[Real Sensors] ’ [State Sync] ’ [Virtual Sensors]
-       “                      “                      “
-[Real Actuators] ’ [Control Interface] ’ [Virtual Actuators]
+[Physical Robot] ï¿½ [Communication Bridge] ï¿½ [Digital Twin]
+       ï¿½                      ï¿½                      ï¿½
+[Real Sensors] ï¿½ï¿½ [State Sync] ï¿½ï¿½ [Virtual Sensors]
+       ï¿½                      ï¿½                      ï¿½
+[Real Actuators] ï¿½ï¿½ [Control Interface] ï¿½ï¿½ [Virtual Actuators]
 ```
 
 ### Key Components:
@@ -62,12 +62,6 @@ The digital twin architecture connects virtual and physical systems:
 - Physics property tuning
 - Hardware-in-the-loop integration
 - Performance optimization
-
-## Chapter Navigation
-
-- [Chapter 1: Simulation Fundamentals](./chapter1-sim-fundamentals.md)
-- [Chapter 2: Robot Modeling](./chapter2-robot-modeling.md)
-- [Chapter 3: Advanced Simulation](./chapter3-advanced-sim.md)
 
 ## Getting Started
 
