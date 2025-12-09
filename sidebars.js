@@ -21,25 +21,44 @@ const sidebars = {
       items: [
         'intro',
         {
-          type: 'link',
+          type: 'category',
           label: 'Module 1: ROS 2 Nervous System',
-          href: '/docs/module1-ros2-nervous-system/',
+          items: [
+            'module1-ros2-nervous-system/index',
+            'module1-ros2-nervous-system/chapter-1-introduction',
+            'module1-ros2-nervous-system/chapter-2-core-concepts',
+            'module1-ros2-nervous-system/chapter-3-tools-implementation'
+          ],
         },
         {
-          type: 'link',
+          type: 'category',
           label: 'Module 2: Digital Twin Simulation',
-          href:  '/docs/module2-digital-twin-simulation/',  
-          
+          items: [
+            'module2-digital-twin-simulation/index',
+            'module2-digital-twin-simulation/chapter-1-introduction',
+            'module2-digital-twin-simulation/chapter-2-core-concepts',
+            'module2-digital-twin-simulation/chapter-3-tools-implementation'
+          ],
         },
         {
-          type: 'link',
+          type: 'category',
           label: 'Module 3: AI Brain (NVIDIA Isaac)',
-          href: '/docs/module3-ai-brain-isaac/'
+          items: [
+            'module3-ai-brain-isaac/index',
+            'module3-ai-brain-isaac/chapter-1-introduction',
+            'module3-ai-brain-isaac/chapter-2-core-concepts',
+            'module3-ai-brain-isaac/chapter-3-tools-implementation'
+          ],
         },
         {
-          type: 'link',
+          type: 'category',
           label: 'Module 4: Vision-Language-Action Robotics',
-          href: '/docs/module4-vla-robotics/',
+          items: [
+            'module4-vla-robotics/index',
+            'module4-vla-robotics/chapter-1-introduction',
+            'module4-vla-robotics/chapter-2-core-concepts',
+            'module4-vla-robotics/chapter-3-tools-implementation'
+          ],
         },
         'weekly-roadmap',
         {

@@ -44,3 +44,74 @@ out/
 .book/
 .dist/
 .nyc_output/
+
+# ROS 2 specific
+build/
+install/
+log/
+*.log
+*.bag
+*.db3
+.devel/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.o
+*.a
+*.dylib
+*.dll
+*.lib
+
+# Python virtual environments
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Isaac Sim / NVIDIA specific
+isaac_sim/
+isaac-sim/
+.isaac-sim/
+.nvidia/
+.nvvp/
+*.nvvp
+
+# Build artifacts
+dist/
+*.tar.gz
+*.whl
+*.egg
+*.egg-info/
+
+# Hardware related
+*.stl
+*.obj
+*.dae
+*.urdf
+*.sdf
+
+# Simulation assets
+simulation_assets/
+*.usd
+*.usda
+*.usdc
+*.usdz
+
+# Robot configuration
+*.yaml
+*.yml
+!*.example.yaml
+!*.example.yml
+
+# Hardware calibration
+*.calib
+*.calibration
+*.params
+
+# Test results
+test_results/
+*.xml
+*.junit
+*.html
